@@ -19,7 +19,8 @@ import collections
 import functools
 import math
 import re
-from typing import Any, Callable, Mapping, Optional, Protocol, Sequence, Union
+from typing import Any, Callable, Mapping, Optional, Sequence, Union#, Protocol
+from typing_extensions import Protocol
 import uuid
 
 from absl import logging
